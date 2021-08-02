@@ -1,9 +1,13 @@
 using System;
+
+
 namespace Domain
 {
     public class Activity
     {
         public Guid ID { get; set; }
+
+      
         public String Title { get; set; }
         public DateTime Date { get; set; }
         public String Description { get; set; }
